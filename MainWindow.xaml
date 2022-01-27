@@ -1,0 +1,210 @@
+﻿<Window x:Class="WpfLAB15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLAB15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph>
+                    <Hyperlink NavigateUri="https://www.chefmarket.ru/blog/samyj-vkusnyj-recept-domashnih-pelmenej/">Как вкусно приготовить пельмени</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Italic>Соблюдаем пропорции. Соотношение теста и фарша должно быть равным, то есть 1:1;
+•	Эластичное тесто. Лучше его замешивать на молоке, так оно получится более нежным с приятным сливочным привкусом. Тесто долго быть тугим. Поэтому жидкость следует вводить постепенно;
+•	Тесто должно «отдохнуть». После замеса его следует обмотать пищевой пленкой или накрыть полотенцем. Основа должна полежать 30-60 минут. Так тесто станет более эластичным и с ним будет проще работать;
+•	Комбинированный фарш. Нужно смешивать жирное и пресное мясо. К примеру жирную свинину с постной говядиной. Чтобы фарш сохранил свою сочность, в его состав следует добавить лук, чеснок, различные специи. Важно помнить золотое правило: на 500 грамм фарша берется 1 крупная луковица. Фаршу нужно тоже дать время на отдых. Как правило, достаточно 20-30 минут;
+•	Правильная форма. Готовые пельмени будут одинакового размера, если раскатать тонко тесто и использовать для приготовления заготовок стакан или рюмку. Начинка выкладывается в центр, после чего заготовка защепляется в форме полумесяца. Края соединяются путем перекрещивания.
+Фарш можно приобрести в магазине или на рынке. Конечно, гораздо лучше, если его перекрутить самостоятельно. Так вы будете уверенными в его составе, качестве и свежести!
+Домашние пельмени: пошаговый рецепт с фото вручную
+В фарш для пельменей не добавляют яйца. В противном случае масса получится очень плотной. Что касается лука и чеснока, то их следует пропускать через мясорубку вместе с мясными кусочками.
+Многие шеф-повара рекомендуют уделить особое внимание варке бульона. Для этого в воду добавляют немного подсолнечного и оливкового масла в равных долях, черный перец горошком и лавровый лист. Масло обязательно используем рафинированное, так как именно оно подходит для температурной обработки.
+                    </Italic>
+                </Paragraph>
+                <Paragraph>
+                    <Run Foreground="Red">Ингридиенты</Run>
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            Пшеничная мука – 500 грамм;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Куриное яйцо – 2 штуки;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Вода – 100 мл;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Молоко – 100 мл;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Подсолнечное масло без вкуса и запаха – 1 столовая ложка;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Соль – ½ чайной ложки;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Жирная свинина – 300 грамм
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Постная говядина – 300 грамм;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Репчатый лук – 1 головка;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Чеснок – 2 зубчика;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Черный перец и соль в фарш добавляются по вкусу.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Run Foreground="Red">Способ приготовления</Run>
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            1.	Муку просеиваем на стол пару раз. В горке делаем углубление;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            2.	Смешиваем яйца с водой, молоком и солью;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            3.	Вливаем полученную смесь в углубление;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            4.	Забираем муку от краев к серединке и вымешиваем тугое тесто;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            5.	Чем больше вымешиваем основу, тем лучше. Оборачиваем тесто пищевой пленкой и убираем его в холодильник на 30-60 минут. В этом время займемся приготовлением фарша;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            6.	Мясо промываем под струей проточной воды, обсушиваем бумажным полотенцем, нарезаем на куски со стороной 5 см;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            7.	Лук измельчаем, чеснок очищаем;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            8.	В мясорубку отправляем поочередно куски свинины, говядины, лук и чеснок;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            9.	Полученный фарш хорошо перемешиваем ложкой, добавляем соль и перец, специи и пропускаем еще раз через мясорубку;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            10.	Достаем тесто, раскатываем его тонким слоем и с помощью стакана делаем круглые заготовки;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            11.	В центр каждой заготовки выкладываем фарш;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            12.	Лепим пельмени, как указано выше;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            13.	В кастрюле кипятим воду, добавляем немного соли, растительное масло, специи;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            14.	Отправляем в кипящий бульон наши пельмени;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            15.	Варим до готовности. Как правило, нужно 10-15 минут в зависимости от размера. Когда пельмени всплывут на поверхность – они готовы!;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            16.	Подаем пельмени к столу горячими вместе с любимыми заправками;
+                        </Paragraph>
+                        <Table>
+                            <Table.Columns>
+                                <TableColumn Width="0.25*"/>
+                                <TableColumn Width="*"/>
+                            </Table.Columns>
+                            <TableRowGroup>
+                                <TableRow>
+                                    <TableCell>
+                                        <Paragraph TextAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="Red">
+                                            Вариант Сервировки
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Image Source="Data\123.jpg"/>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                            </TableRowGroup>
+                        </Table>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Italic>
+                        Теперь вы знаете, как приготовить пельмени в домашних условиях, чтобы они получились вкусными и ароматными. После приготовления полуфабрикат можно заморозить и доставать для варки по мере необходимости!
+                    </Italic>
+                    </Paragraph>
+                    <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Нажми если понравился рецепт"/>
+                        <Button Content="Нравится"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
